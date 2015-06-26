@@ -43,7 +43,8 @@
 		"trim": "0.0.1",
 		"usage": "0.7.0",
 		"userid": "0.1.2",
-		"winston": "1.0.*"
+		"winston": "1.0.*",
+		"waitpid": "0.1.*"
 	},
 	"private": true,
 	"license": "GPLv3"
