@@ -7,6 +7,9 @@
 # ./srcds_install.sh -b /home/ -u username gameid
 # ==============================
 
+LOG_FILE=logs/scrds_install.log
+exec 3>&1 1>>${LOG_FILE} 2>&1
+
 # Allows enough time for PufferPanel to get the Feed
 sleep 5
 
