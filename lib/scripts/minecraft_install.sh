@@ -5,6 +5,9 @@
 #
 # ./minecraft_install.sh -b /home/ -u username [-p plugin -s sponge_version -f forge_version -v vanilla_version]
 
+LOG_FILE=logs/minecraft_install.log
+exec 3>&1 1>>${LOG_FILE} 2>&1
+
 # Allows enough time for PufferPanel to get the Feed
 sleep 5
 
